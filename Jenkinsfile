@@ -1,6 +1,6 @@
 node{
 stage "build"
-echo "build sdfghuccess"
+echo "build sdfghuccqwwess"
 stage "test"
 echo "test success"
 stage "deploy"
