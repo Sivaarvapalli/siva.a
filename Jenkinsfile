@@ -1,6 +1,6 @@
 node{
 stage "build"
-echo "success"
+echo "sucdddcess"
 stage "test"
 echo "success"
 }
