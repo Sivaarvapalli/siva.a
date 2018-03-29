@@ -15,8 +15,8 @@ def hello():
     except RedisError:
         visits = "<i>cannot connect to Redis, counter disabled</i>"
 
-    html = "<h3>Hello {name}!</h3>" \
-           "<h3>Task Completed</h3>" \
+    html = "<h3>Hello Task Completed</h3>" \
+           "<h3>This is a simple login page created using html</h3>" \
            "<b>Hostname:</b> {hostname}<br/>" \
            "<b>Visits:</b> {visits}"
     return html.format(name=os.getenv("NAME", "Audacy"), hostname=socket.gethostname(), visits=visits)
