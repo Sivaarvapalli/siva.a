@@ -17,6 +17,10 @@ def hello():
 
     html = "<h3>Hello Task Completed</h3>" \
            "<h3>This is a simple login page created using html</h3>" \
+           "<legend>Login details</legend>" \
+           "<input type="email" placeholder="email or username"/> <br><br>" \
+           "<input type="password" placeholder="enter password"/><br><br>" \
+           "<input type="submit"/>" \
            "<b>Hostname:</b> {hostname}<br/>" \
            "<b>Visits:</b> {visits}"
     return html.format(name=os.getenv("NAME", "Audacy"), hostname=socket.gethostname(), visits=visits)
